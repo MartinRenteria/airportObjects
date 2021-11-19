@@ -1,9 +1,9 @@
 const Airport = require('./Airport')
 
 describe('Airport object', () => {
-	const airportTest = new Airport("AA")
+	const airportTest = new Airport("SeaTac")
 
 	test('airport has a name', () => {
-		expect(airportTest.name).toBe("AA")
+		expect(airportTest.name).toBe("SeaTac")
 	})
 })
