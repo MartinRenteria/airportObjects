@@ -1,10 +1,10 @@
 class Bag {
-	constructor(weight) {
-		if(!weight) {
-			throw new Error('bag must have a weight')
-		}	
-		this.weight = weight
-	}
+  constructor(weight) {
+    if (!weight) {
+      throw new Error("bag must have a weight");
+    }
+    this.weight = weight;
+  }
 }
 
-module.exports = Bag
+module.exports = Bag;

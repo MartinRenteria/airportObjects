@@ -1,12 +1,12 @@
 class Airport {
-    constructor(name, planes) {
-        this.name = name
-        this.planes = planes
-    }
+  constructor(name, planes) {
+    this.name = name;
+    this.planes = planes;
+  }
 
-    addPlane(plane) {
-        this.planes.push(plane)
-    }
+  addPlane(plane) {
+    this.planes.push(plane);
+  }
 }
 
-module.exports = Airport
+module.exports = Airport;

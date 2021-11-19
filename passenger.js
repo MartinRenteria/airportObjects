@@ -1,14 +1,14 @@
 class Passenger {
-    constructor(name, passportNumber, seatNumber) {
-        this.name = name
-        this.passportNumber = passportNumber
-        this.seatNumber = seatNumber
-        this.bags = []
-    }
+  constructor(name, passportNumber, seatNumber) {
+    this.name = name;
+    this.passportNumber = passportNumber;
+    this.seatNumber = seatNumber;
+    this.bags = [];
+  }
 
-    addBag(bag) {
-        this.bags.push(bag)
-    }
+  addBag(bag) {
+    this.bags.push(bag);
+  }
 }
 
-module.exports = Passenger
+module.exports = Passenger;
