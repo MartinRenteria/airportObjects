@@ -8,3 +8,5 @@ class Airport {
         this.planes.push(plane)
     }
 }
+
+module.exports = Airport
