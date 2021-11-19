@@ -6,4 +6,4 @@ class CrewMember {
     }
 }
 
-module.export = CrewMember
+module.exports = CrewMember

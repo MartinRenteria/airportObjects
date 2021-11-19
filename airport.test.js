@@ -1,4 +1,4 @@
-const Airport = require('./Airport')
+const Airport = require('./airport')
 
 describe('Airport object', () => {
 	const airportTest = new Airport("SeaTac")

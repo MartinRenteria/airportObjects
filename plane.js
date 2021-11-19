@@ -1,7 +1,7 @@
 class Plane {
-    constructor(flightNumber, passengers) {
-        this.name = flightNumber
-        this.passengers = passengers
+    constructor(flightNumber) {
+        this.flightNumber = flightNumber
+        this.passengers = []
     }
 
     addPassenger(passenger) {
@@ -9,4 +9,4 @@ class Plane {
     }
 }
 
-module.export = Plane
+module.exports = Plane
