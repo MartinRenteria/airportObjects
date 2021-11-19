@@ -1,0 +1,20 @@
+{
+  "name": "airportobjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "airport.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinRenteria/airportObjects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinRenteria/airportObjects/issues"
+  },
+  "homepage": "https://github.com/MartinRenteria/airportObjects#readme"
+}
