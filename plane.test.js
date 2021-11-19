@@ -2,8 +2,8 @@ const Plane = require("./plane");
 
 // Testing if plane is added
 describe("Plane", () => {
-  const testPlane = new Plane("B500");
   test("has a flight number", () => {
+    const testPlane = new Plane("B500");
     expect(testPlane.flightNumber).toBe("B500");
   });
 });
