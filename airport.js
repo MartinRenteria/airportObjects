@@ -4,7 +4,7 @@ class Airport {
         this.planes = planes
     }
 
-    addPlane() {
-        this.planes.push(planes)
+    addPlane(plane) {
+        this.planes.push(plane)
     }
 }
