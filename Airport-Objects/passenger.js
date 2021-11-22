@@ -1,13 +1,8 @@
-class Passenger {
-  constructor(name, passportNumber, seatNumber) {
-    this.name = name;
+class Passenger extends Person{
+  constructor(name, bags, passportNumber, seatNumber) {
+    super(name, bags)
     this.passportNumber = passportNumber;
     this.seatNumber = seatNumber;
-    this.bags = [];
-  }
-
-  addBag(bag) {
-    this.bags.push(bag);
   }
 }
 
