@@ -14,3 +14,10 @@ describe("Bags", () => {
     expect(testBag.bags.length).toBe(1);
   });
 });
+
+describe("Passenger Class", () => {
+  test("if they have a passport", () => {
+    const testPassport = new Passenger('martin', 4, '434');
+    expect(testPassport.passportNumber).toBe('434');
+  });
+});

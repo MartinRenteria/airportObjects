@@ -2,7 +2,7 @@ const Dog = require("./dog")
 
 describe('Dog Class', () => {
 
-	const testDog = new Dog('Shepperd', 'golden')
+	const testDog = new Dog('Shepperd','blue', 'golden')
 
 	test('has a name', () => {
 		expect(testDog.name).toBe('Shepperd')

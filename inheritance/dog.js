@@ -2,7 +2,7 @@ const Pet = require('./pet')
 
 class Dog extends Pet {
     constructor(name, color, breed) {
-        super(name, breed, 'Dog')
+        super(name, color, 'Dog')
         this.breed = breed
     }
     speak() {

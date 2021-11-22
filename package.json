@@ -4,7 +4,8 @@
   "description": "",
   "main": "airport.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:report": "jest --coverage=true"
   },
   "repository": {
     "type": "git",

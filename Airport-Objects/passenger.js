@@ -1,3 +1,5 @@
+const Person = require('./person')
+
 class Passenger extends Person{
   constructor(name, bags, passportNumber, seatNumber) {
     super(name, bags)
